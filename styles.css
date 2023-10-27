@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+    padding: 0px;
+    margin: 0px;
+    font-style: inherit;
+}
+html,
+body{
+    height: 90vh;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: medium;
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.counter-container {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 6px;
+margin-top: 1rem;
+}
+span{
+    font-size: 3rem;
+    background-color: rgb(16, 194, 75);
+    padding: 4px 12px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 50%;
+}
+button{
+    font-size: 3rem;
+    cursor: pointer;
+    border: 0px;
+    background-color: transparent;
+    
+}
